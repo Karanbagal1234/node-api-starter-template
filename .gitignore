@@ -1,0 +1,55 @@
+.qodo
+# Node Modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+error.log
+combined.log
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Cache & Temporary Files
+*.cache
+*.tmp
+dist/
+build/
+
+# Debugging
+.vscode/
+.idea/
+.DS_Store
+
+# Coverage Reports
+coverage/
+.nyc_output/
+
+# OS-specific files
+Thumbs.db
+*.swp
+
+# Dependencies Lock Files (if using Yarn or PNPM)
+pnpm-lock.yaml
+yarn.lock
+
+# Ignore database files
+*.sqlite
+*.sqlite-journal
+
+# Ignore uploads and temporary files
+uploads/
+temp/
+
+# Models (Only exclude compiled/built files, keep model source files)
+models/*.json
+models/*.csv
+models/*.sqlite
+models/__pycache__/
